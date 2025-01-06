@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopery e-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="location">
+        <div class=" d-one">
+        <svg width="39px" height="39px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z" fill="#080341"/> </g>
+            
+            </svg>
+            <p class="header-p">Store Location: Lincoin-344,ill,chicago,USA </p>
+            </div>
+
+            <div class="l-div d-one">
+        <button class="header-button">Eng</button>
+        <button class="header-button">USD</button>
+        <div class="h-line"></div>
+        <button class="header-button btn-sing-in" id="sing-sing-in">Sing in</button><span>/</span><button class="header-button btn-sing-up" id="sing-sing-up" >Sing up</button>
+
+            </div>
+    </div>
+        <header class="header-projects">
+   
+
+            <div class="nav-sections" >
+                <button type="button" class="nav-section " data-target="home">Home</button>
+                <button type="button" class="nav-section" data-target="categories">All Categories</button>
+                <button type="button" class="nav-section" data-target="About">About Us</button>
+                <button type="button" class="nav-section" data-target="contact">Contact Us</button>
+            </div>
+        
+        <img src="./svg/logo.png" alt="logo" height="50px" srcset="">
+        
+                
+
+    
+        <div class="costom-info" style="display: flex;align-items: center; position: relative;">
+            <button type="button" style="padding: 0 20px;"  data-target="search-div"><img src="./svg/search.png" height="30px" alt=""></button>
+            <data class="wish-length-on-love" style="background-color: rgb(9, 217, 9); width: 24px; height: 24px; color: #fff; display: grid; place-content: center; border-radius: 50%; position: absolute; top: 0.2px; left: 50px;">0</data>
+          
+            <button class="custom-svg"  data-target="close-wish"><svg fill="black" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="black">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier">
+                
+                <path d="M20.5,4.609A5.811,5.811,0,0,0,16,2.5a5.75,5.75,0,0,0-4,1.455A5.75,5.75,0,0,0,8,2.5,5.811,5.811,0,0,0,3.5,4.609c-.953,1.156-1.95,3.249-1.289,6.66,1.055,5.447,8.966,9.917,9.3,10.1a1,1,0,0,0,.974,0c.336-.187,8.247-4.657,9.3-10.1C22.45,7.858,21.453,5.765,20.5,4.609Zm-.674,6.28C19.08,14.74,13.658,18.322,12,19.34c-2.336-1.41-7.142-4.95-7.821-8.451-.513-2.646.189-4.183.869-5.007A3.819,3.819,0,0,1,8,4.5a3.493,3.493,0,0,1,3.115,1.469,1.005,1.005,0,0,0,1.76.011A3.489,3.489,0,0,1,16,4.5a3.819,3.819,0,0,1,2.959,1.382C19.637,6.706,20.339,8.243,19.826,10.889Z"/>
+                
+                </g>
+                
+                </svg></button>
+
+                <data class="wish-length-on-love" id="wish-length-on-love" style="background-color: rgb(9, 217, 9); width: 24px; height: 24px; color: #fff; display: grid; place-content: center; border-radius: 50%; position: absolute; left: 97px; top: 2px; margin: 0 20PX;">0</data>
+            <button class="custom-svg"  data-target="close-cart" style="margin-left: 10px;" ><svg class="nav-svg" width="40px" height="40px"  viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path d="M16 8H17.1597C18.1999 8 19.0664 8.79732 19.1528 9.83391L19.8195 17.8339C19.9167 18.9999 18.9965 20 17.8264 20H6.1736C5.00352 20 4.08334 18.9999 4.18051 17.8339L4.84718 9.83391C4.93356 8.79732 5.80009 8 6.84027 8H8M16 8H8M16 8L16 7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7L8 8M16 8L16 12M8 8L8 12" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
+                
+                </svg></button>
+
+        <button   data-target="account" ><svg class="nav-svg" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="black" stroke="black">
+
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <g id="SVGRepo_iconCarrier"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-4.987-3.744A7.966 7.966 0 0 0 12 20c1.97 0 3.773-.712 5.167-1.892A6.979 6.979 0 0 0 12.16 16a6.981 6.981 0 0 0-5.147 2.256zM5.616 16.82A8.975 8.975 0 0 1 12.16 14a8.972 8.972 0 0 1 6.362 2.634 8 8 0 1 0-12.906.187zM12 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/> </g> </g>
+            </svg></button>
+        
+        </div>
+        
+   
+        </header>
+
+        <div class="search-div toggle-me active" id="search-div">
+        <div class="input-div ">
+            <input type="text" class="input-search" id="search-text" placeholder="Searching......." id="">
+            <button type="button" id="cancel"> cancel</button>
+        </div>
+
+        <div class="searched-products">
+            
+        </div>
+    </div>
+
+        <div class=" logingfrom toggle-me active " id="loging-form">
+            <form class="form sing-in " id="sing-in-form"  >
+                <h1 class="h-in">sing-in</h1>
+                <div style="text-align: start; ">
+                <input type="email" class="input-account acc" id="input-in-email" placeholder="Email" required >
+                
+                <input type="password" class="input-account" id="input-in-password" placeholder="Password" required >
+               
+            </div>
+                <div class="remenper">
+                    <div style="display: flex;">
+        <input type="checkbox"><p>Remember Me </p>
+        </div>
+        <button type="button">Forget Password</button>
+                </div>
+                <button type="submit" class="loging-btn " >Loging</button>
+                <div style="display: flex; justify-content: center;">
+                <p>Don’t have account?</p><button type="button" class="btn-sing-up" >Register</button>
+            </div>
+            </form>
+
+            <form class="form sing-up active"  id="sing-up-form"  >
+                <h1 class="h-in">Create Account</h1>
+                <div style="text-align: start; ">
+                <input type="email " class="input-account acc" id="input-up-email" placeholder="Email" required >
+                
+                <input type="password" class="input-account" id="input-up-password" placeholder="Password" style="margin-bottom: 30px;" required minlength="7">
+                <input type="password" class="input-account" id="input-up-confirm" placeholder="confirm Password" required minlength="7" >
+                
+                <div class="remenper">
+                    <div style="display: flex;">
+        <input type="checkbox"><p>Accept all terms & Conditions</p>
+                   </div>
+                </div>
+                <button type="submit" class="loging-btn" >Create Account</button>
+                <div style="display: flex; justify-content: center;">
+                <p>Already have account</p><button type="button" class="btn-sing-in">Loging</button>
+            </div>
+        </div>
+            </form>
+        
+</div> 
+
+
+<div class=" all-categories toggle-me active " id="categories">
+<div class="filtering ">
+<h1>All Categories</h1>
+<div class="filter">
+    <ul class="list-filter">
+        <li class="order-filter" ><input type="checkbox" class="category-products"    value="fruit"> Fresh Fruit ( <span class="index"  ></span> )</li>
+        <li class="order-filter" ><input type="checkbox" class="category-products"     value="vegetable">Vegetables ( <span class="index"></span> )</li>
+        <li class="order-filter" ><input type="checkbox" class="category-products"       value="fish">Fish ( <span class="index"></span> )</li>
+        <li class="order-filter" ><input type="checkbox" class="category-products"    value="meat">Meat ( <span class="index"></span> )</li>
+        <li class="order-filter" ><input type="checkbox" class="category-products"    value="snacks">Snacks ( <span class="index"></span> )</li>
+       
+    </ul>
+   
+</div>
+</div>
+<div class="products"  id="products">
+   
+
+</div>
+<div style="grid-column: span 3;"></div>
+<div style="display: flex; grid-column: span 9;" id="pagination">
+   
+</div>
+</div>
+
+<div class="detail-container  " id="detail-container">
+   
+
+</div>
+
+<div class="wished active "  style="z-index: 9999;">
+
+   <div class="wished-list nuh active" id="close-wish">
+    <div style="display: flex; justify-content: space-between; padding: 0 20px;"> 
+        <h1 >Wished Products ( <span class="wish-length" id="wish-length">0</span> )</h1><button type="button" class="close-btn" data-target="close-wish" ><img  src="./svg/close.svg" height="50px" width="50px" alt="" srcset=""></button>
+    </div>
+
+    <div class="list" id="wished-list">
+      
+        
+    </div>
+    
+    <div class="wished-footer">
+<div style="display: flex; justify-content: space-between;"><h2> <span id="total-wished-products"></span>  products</h2> <h2 >$<span id="total-wish-price">0</span></h2></div>
+<div style="display: grid; place-items:center ; place-content: center; width: 100%; overflow: hidden;">
+    <button type="button" class="wished-footer-btn" id="check-wish-items">check out</button>
+    <button type="button" class="wished-footer-btn" id="go-to-cart">Go to Cart</button>
+</div>
+    </div>
+    </div>
+
+    
+    <div class="wished-list nuh active" id="close-cart">
+        <div style="display: flex; justify-content: space-between; padding: 0 20px;"> 
+            <h1 >Cart Products ( <span class="wish-length" id="cart">0</span> )</h1><button type="button" class="close-btn" data-target="close-cart"><img  src="./svg/close.svg" height="50px"  width="50px" alt="" srcset=""></button>
+        </div> 
+    
+        <div class="list" id="carted-list">
+          
+            
+        </div>
+        
+        <div class="wished-footer">
+    <div style="display: flex; justify-content: space-between;"><h2> <span id="total-carted-products"></span>  products</h2> <h2 >$<span id="total-wish-price">0</span></h2></div>
+    <div style="display: grid; place-items:center ; place-content: center; width: 100%; overflow: hidden;">
+        <button type="button" class="wished-footer-btn" id="check-cart-items">check out</button>
+        <button type="button" class="wished-footer-btn" id="go-to-wish">Go to wish</button>
+    </div>
+        </div>
+        </div>
+</div>
+
+
+<div class="wish-table active" id="wish-table">
+    <h1 >My Wishlist</h1>
+    <div style=" border:#CCCCCC solid 1px; display: flex; width: 73%; justify-content:center ">
+        <p  style="position: relative; right: 36rem;">products</p>
+        <p style="position: relative; right: 14rem;">Price</p>
+        <p style="position: relative; right: -15rem;">Add Cart</p>
+    </div> 
+<table class="table" style="height: 50vh; width: 73%; overflow-y:scroll;" id="add-wish-fff">
+
+
+</table>
+</div>
+     
+<div class="cart-section toggle-me active " id="cart-section">
+  <h1>My Shopping Cart</h1>
+  <div class="cart-table">
+    <div  class="product-table-cart" >
+  <div  class="flexing">
+        <p>PRODUCT</p>
+        <p>PRICE</p>
+        <p>QUANTITY</p>
+        <p>SUBTOTAL</p>
+ </div>
+ <div class="paid-products"  >
+    
+</div>
+</div>
+    <div  class="money-cart-table">
+        <h3 style="border: 0; text-align: left; margin: 0;">Cart Total</h3>
+        
+          <article class="item-price-cart">
+            <p class="flavor">Subtotal :</p><p class="price-product">$0.00</p>
+          </article>
+          <article class="item-price-cart">
+            <p class="flavor">Tax rate</p><p class="price-product">$0.00</p>
+          </article>
+          <article class="item-price-cart">
+            <p class="flavor">Shipping :</p><p class="price-product">$0.00</p>
+          </article>
+          <article class="item-price-cart">
+            <p class="flavor">Total :</p><p class="price-product">$0.00</p>
+          </article>
+          
+          <button type="button" class="buy-the-products">proceed to checkout</button>
+    </div>
+</div>
+</div>
+
+<div class="About toggle-me active" id="About">
+
+<div class="trusted ">
+
+    <div class="infromation">
+
+        <section class="section-one">
+            <div>
+            <h1 class="about-h1">100% Trusted <br> Organic Food Store</h1>
+            <p class="about-p">
+                Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet <br> ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac <br> lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a <br> eros non massa vulputate ornare. Vivamus ornare commodo <br> ante, at commodo felis congue vitae.
+            </p>
+        </div>
+            <img src="./bg-image/about-us-image-one.png" alt="" srcset="">
+        </section>
+        <section class="section-two">
+            <div class="section-two-div">
+<img src="./bg-image/about-us-image-two.png" alt="" srcset="">
+         </div>
+<div >
+    <h1 class="about-h1">100% Trusted <br>
+        Organic Food Store</h1>
+        <p class="about-p">Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et <br> rhoncus neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu <br>eros consequat tortor tincidunt feugiat. </p>
+<div style="display: grid;
+grid-template-columns: repeat(2,auto);">
+<img src="./bg-image/f-1.png" alt="">
+<img src="./bg-image/f-2.png" alt="">
+<img src="./bg-image/f-3.png" alt="">
+<img src="./bg-image/f-4.png" alt="">
+<img src="./bg-image/f-5.png" alt="">
+<img src="./bg-image/f-6.png" alt="">
+</div>
+    </div>
+</section>
+<section class="section-three" >
+    <div style="margin:  0 100px;">
+        <h1 class="about-h1">We Delivered, You <br> Enjoy Your Order.</h1>
+        <p class="about-p">Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, <br> ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim <br>diam, ac mattis eros accumsan rhoncus. Curabitur auctor <br> bibendum nunc eget elementum.</p>
+
+        <p style="display: flex; align-items: center;" class="about-p"><img src="./bg-image/Check.png" height="40px" alt="" srcset="">Sed in metus pellentesque.</p>
+        <p style="display: flex; align-items: center;" class="about-p"><img src="./bg-image/Check.png" height="40px" alt="" srcset="">Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.</p>
+        <p style="display: flex; align-items: center;" class="about-p"><img src="./bg-image/Check.png" height="40px" alt="" srcset="">Maecenas ut nunc fringilla erat varius.<p>
+       
+            <button style="display: flex; align-items: center;   border-radius: 50px;" type="button" >Shop Now <svg width="32px" height="32px" viewBox="-2.4 -2.4 28.80 28.80" fill="white" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(-1, 0, 0, -1, 0, 0)">
+
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+            
+            <g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </g>
+            
+            </svg></button>
+    </div>
+    <img src="./bg-image/imge-third.png" alt="" srcset="">
+</section>
+
+    </div>
+
+    <div class="comment">
+        <div style="background-color: #f3f3f3; padding:80px 0 ;">
+            <h1 class="about-h1" style="text-align: center;">Our Awesome Team</h1>
+            <p class="about-p" style="text-align: center;">Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus <br> neque. Duis non diam eget est luctus tincidunt a a mi.</p>
+        <div style="display: flex; justify-content: center; ">
+
+            <div style="padding-bottom:20px ; border:solid 2px #CCCCCC; border-radius: 10px; background-color: #fff;  width: 27em; margin: 0 20px;">
+                <img src="./bg-image/worker-1-imge.png" width="100%" alt="" srcset="">
+                <h1 class="about-h1" style="margin: 0 20px;">Jenny Wilson</h1>
+                <p class="about-p" style="margin: 0 20px;">Ceo & Founder></p>
+            </div>
+
+    <div style="padding-bottom:20px ; border:solid 2px #CCCCCC; border-radius: 10px; background-color: #fff;  width: 27em; margin: 0 20px;">
+        <img src="./bg-image/worker-2-image.png" width="100%" alt="" srcset="">
+        <h1 class="about-h1" style="margin: 0 20px;">Jane Cooper</h1>
+        <p class="about-p" style="margin: 0 20px;">Worker</p>
+</div>  
+
+    <div style="padding-bottom:20px ; border:solid 2px #CCCCCC; border-radius: 10px; background-color: #fff;width: 27em; margin: 0 20px;">
+        <img src="./bg-image/worker-three-imge.png" width="100%" alt="" srcset="">
+        <h1 class="about-h1" style="margin: 0 20px;">Cody Fisher</h1>
+        <p class="about-p" style="margin: 0 20px;">Security Guard</p>
+    </div> 
+
+
+    <div style="padding-bottom:20px ; border:solid 2px #CCCCCC; border-radius: 10px; background-color: #fff;  width: 27em; margin: 0 20px;">
+        <img src="./bg-image/worker-4-image.png" width="100%" alt="" srcset="">
+        <h1 class="about-h1" style="margin: 0 20px;">Robert Fox</h1>
+        <p class="about-p" style="margin: 0 20px;">Senior Farmer Manager</p>
+    </div>
+    
+        </div>
+        </div>
+
+        <div style="background-color: #E6E6E6; padding:80px 0 ">
+        <div style="padding: 80px 0; margin:0 20%; background-color: #E6E6E6; padding:80px 0 ;">
+            <h1 class="about-h1">Client Testimonail</h1>
+            <img src="./bg-image/comment-img.png" alt="" srcset="">
+        </div>
+    </div>
+
+    <div style="background-color: #fff; display:grid; place-content: center; place-items: center;  "> <img src="./bg-image/Companies Logo.png" style="margin: auto 10%;" height="120%" alt="" srcset=""></div>
+</div>
+
+    </div>
+</div>
+
+<div class="contact toggle-me  active" id="contact">
+    <div>
+    <div style=" display: flex; margin:0 20%;">
+
+        <div><img src="./bg-image/Contact Info.png"  alt=""></div>
+
+        <div style="width: 140%;">
+            <div style="margin: 10% 0; ">
+<h1>Just Say Hello!</h1>
+<p>Do you fancy saying hi to me or you want to get started with your <br> project and you need my help? Feel free to contact me.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 2%;">
+    <input type="text" placeholder="Template Cookie" class="about-p contact-input" style=" height: 3.4rem; width: 49%; ">
+    <input type="email" placeholder="zakirsoft@gmail.com" class="about-p contact-input" style="width: 49%;">
+<input type="text" placeholder="Hello!" class="contact-input" style="width: 100%; margin-top: 3%; height: 3rem; ">
+<input type="text" placeholder="Subjects" class="contact-input" style="width: 100%; margin: 1% 0; height: 8rem; display: flex; justify-content: flex-start; align-items: flex-start; ">
+<button type="button" class="contact-btn">Send Message</button>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6089.785052371615!2d-68.13445870868878!3d-67.56823718557543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb7b8e833bf3630f%3A0xdd4d4fb72ddc9dd5!2sRothera%20Research%20Station%2C%20Antarctica!5e0!3m2!1sen!2sso!4v1736154054137!5m2!1sen!2sso" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</div>
+
+<div class="home toggle-me " id="home">
+
+<div class="slider" style="height: 40em; position: relative;">
+<div class="home-w-scroll-imgs">
+
+  <div class="scroll-img frist-one">
+    <div style="height: 80%;">
+
+    <img src="./bg-image/basket.png" alt="" srcset="">
+    </div>
+<div >
+<p>Welcome to shopery</p>
+    <h1>Fresh & Healthy <br>
+        Organic Food</h1>
+<p>Sale up to <span>30% OFF</span> </p>
+<p>Free shipping on all your order. we deliver, you enjoy</p>
+<button style="display: flex; align-items: center;  padding: 20px; color: white; background-color:#00b207;  border-radius: 50px;" type="button" > Shop Now <svg width="32px" height="32px" viewBox="-2.4 -2.4 28.80 28.80" fill="white" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(-1, 0, 0, -1, 0, 0)">
+
+    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+    
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </g>
+    
+    </svg></button>
+</div>
+</div>
+
+<div class="scroll-img second-one">
+   
+<div >
+<p>Welcome to shopery</p>
+    <h1>Fresh & Healthy <br>
+        Organic Food</h1>
+<p>Sale up to <span>30% OFF</span> </p>
+<p>Free shipping on all your order. we deliver, you enjoy</p>
+<button style="display: flex; align-items: center;  padding: 20px; color: black; background-color:white;  border-radius: 50px;" type="button" > Shop Now <svg width="32px" height="32px" viewBox="-2.4 -2.4 28.80 28.80" fill="black" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(-1, 0, 0, -1, 0, 0)">
+
+    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+    
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </g>
+    
+    </svg></button>
+</div>
+<div style="height: 80%;">
+    <img height="100%"  src="./bg-image/kkk.png" alt="" srcset="">
+</div>
+</div>
+
+<div class="scroll-img thrid-one">
+    <div style="height: 80%;">
+
+    <img src="./bg-image/fruits.png" alt="" srcset="">
+    </div>
+<div >
+<p>Welcome to shopery</p>
+    <h1>Fresh & Healthy <br>
+        Organic Food</h1>
+<p>Sale up to <span>30% OFF</span> </p>
+<p>Free shipping on all your order. we deliver, you enjoy</p>
+<button style="display: flex; align-items: center;  padding: 20px; color: white; background-color:#00b207;  border-radius: 50px;" type="button" > Shop Now <svg width="32px" height="32px" viewBox="-2.4 -2.4 28.80 28.80" fill="white" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(-1, 0, 0, -1, 0, 0)">
+
+    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+    
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <g id="SVGRepo_iconCarrier"> <path d="M4 12H20M4 12L8 8M4 12L8 16" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </g>
+    
+    </svg></button>
+</div>
+
+<div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class="Featured">
+    <div style="display: flex; justify-content: center; ">
+    <h1>Featured Products</h1>
+</div>
+    <div class="free-products" style="display: flex; gap: 20px; justify-content: center;">
+       
+     
+    
+    </div>
+
+    <div class="deals">
+        <div class="types-of-deals">
+            <h3>Hot Deals</h3>
+            <h3>Best Seller</h3>
+            <h3>Top Rated</h3>
+           
+
+            
+        </div>
+        <div class="discount-desing">
+            <h4 style="display: grid; place-content: center;">SUMMER SALE</h4>
+<h1 style="display: grid; place-content: center;">75% OFF</h1>
+<button type="button" style="display: grid; place-content: center;">shop now</button>
+        </div>
+    </div>
+        <div class="comment">
+            
+    
+            <div style="background-color: #E6E6E6; padding:80px 0 ">
+            <div style="padding: 80px 0; margin:0 20%; background-color: #E6E6E6; padding:80px 0 ;">
+                <h1 class="about-h1">Client Testimonail</h1>
+                <img src="./bg-image/comment-img.png" alt="" srcset="">
+            </div>
+        </div>
+    
+    </div>
+    <IFrame></IFrame>
+    
+
+</div>
+</div>
+<footer class="the-footer">
+
+    <div class="subcribe footer-about">
+        <img src="./svg/logo.png" alt="logo" height="50px" srcset="">
+        <div class="news">
+            <h1>Subcribe Our Newsletter</h1>
+            <p>pellesque eu nibh egeh mauris congue mattis matti</p>
+        </div>
+        <div class="upper-footer" style="position: relative;">
+        <input type="email" name="" class="sub-input" placeholder="Your Email Address"><button type="button" class="sub-btn">Subscribe</button>
+    </div>
+    </div>
+    <div class="sider-fooder">
+    <div class="main-footer footer-about " style="position: relative;">
+        <div class="about-shopery">
+            <h1 class="bold-font">About Shopery</h1>
+            <p class="thin-font">Morbi cursus porttitor enim lobortis molestie. <br> Duis gravida turpis dui, eget bibendum magna <br> congue nec.</p>
+            <h1 class="bold-font">(219) 555-0114 <span class="thin-font">or</span> Proxy@Gmail.com</h1>
+            <div class="about-footer-lien"></div>  
+            <div class="about-footer-lien lline"></div>  
+        </div>
+        <div class="my-account">
+            <h1 class="bold-font">My Account</h1>
+            <p class="thin-font">My Account</p>
+            <p class="thin-font">Order History</p>
+            <p class="thin-font" style="color: white;">Shoping Cart</p>
+            <p class="thin-font">Wishlist</p>
+            <p class="thin-font">Setting</p>
+        </div>
+        <div class="helps">
+            <h1 class="bold-font">Helps</h1>
+            <p class="thin-font">Contact</p>
+            <p class="thin-font">Faqs</p>
+            <p class="thin-font">Teams & Condition</p>
+            <p class="thin-font">Privacy Policy</p>
+        </div>
+        <div class="proxy">
+            <h1 class="bold-font">Proxy</h1>
+            <p class="thin-font">About</p>
+            <p class="thin-font">Shop</p>
+            <p class="thin-font">Product</p>
+            <p class="thin-font">Products Details</p>
+            <p class="thin-font">Take Order</p>
+
+        </div>
+        <div class="downloading">
+            <h1 class="bold-font">Download our Mobile App</h1>
+            <div>
+                <img  src="./bg-image/Apps--Store.png" alt="apps store" srcset="">
+                <img src="./bg-image/play Store.png" alt="play store" srcset="">
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="social-width">
+    <div class="footer-about social-and-payment">
+        <div class="social-media-icons">
+            <button><svg class="social-media facebook"  width="40px" height="40px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/></svg></button> 
+            <button><svg class="social-media"  width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z" />
+                 </svg>
+                 <button><svg  class="social-media"   width="40px" height="40px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                 <path d="M10.8097 14.2306C10.4323 14.06 9.98797 14.2276 9.81733 14.605C9.64668 14.9824 9.81431 15.4267 10.1917 15.5974L10.8097 14.2306ZM12.5007 15.344L12.5015 16.0941L12.5136 16.0939L12.5007 15.344ZM17.5007 10.172L16.7508 10.1595C16.7507 10.1678 16.7507 10.1762 16.7508 10.1845L17.5007 10.172ZM12.5007 5L12.5136 4.25011C12.505 4.24996 12.4964 4.24996 12.4879 4.25011L12.5007 5ZM7.50072 10.172L8.25072 10.1741C8.25073 10.1692 8.2507 10.1644 8.25062 10.1595L7.50072 10.172ZM7.68386 13.4079C7.90528 13.758 8.36855 13.8623 8.71862 13.6409C9.06869 13.4194 9.17299 12.9562 8.95158 12.6061L7.68386 13.4079ZM11.2292 15.0923C11.3277 14.69 11.0814 14.284 10.679 14.1855C10.2767 14.087 9.87069 14.3334 9.77222 14.7357L11.2292 15.0923ZM8.77222 18.8217C8.67375 19.224 8.92009 19.63 9.32243 19.7285C9.72477 19.827 10.1308 19.5806 10.2292 19.1783L8.77222 18.8217ZM9.76171 14.7861C9.69105 15.1942 9.96463 15.5823 10.3728 15.653C10.7809 15.7237 11.1691 15.4501 11.2397 15.0419L9.76171 14.7861ZM12.2397 9.26594C12.3104 8.8578 12.0368 8.46966 11.6287 8.39899C11.2205 8.32833 10.8324 8.60191 10.7617 9.01006L12.2397 9.26594ZM10.1917 15.5974C10.9175 15.9255 11.705 16.0949 12.5015 16.094L12.4999 14.594C11.9171 14.5946 11.3408 14.4707 10.8097 14.2306L10.1917 15.5974ZM12.5136 16.0939C15.7362 16.0386 18.3043 13.3822 18.2506 10.1595L16.7508 10.1845C16.7907 12.5791 14.8825 14.553 12.4879 14.5941L12.5136 16.0939ZM18.2506 10.1845C18.3043 6.96184 15.7362 4.30541 12.5136 4.25011L12.4879 5.74989C14.8825 5.79098 16.7907 7.76488 16.7508 10.1595L18.2506 10.1845ZM12.4879 4.25011C9.26523 4.30541 6.69714 6.96184 6.75082 10.1845L8.25062 10.1595C8.21072 7.76488 10.119 5.79098 12.5136 5.74989L12.4879 4.25011ZM6.75072 10.1699C6.74751 11.316 7.07122 12.4393 7.68386 13.4079L8.95158 12.6061C8.49143 11.8786 8.24831 11.0349 8.25072 10.1741L6.75072 10.1699ZM9.77222 14.7357L8.77222 18.8217L10.2292 19.1783L11.2292 15.0923L9.77222 14.7357ZM11.2397 15.0419L12.2397 9.26594L10.7617 9.01006L9.76171 14.7861L11.2397 15.0419Z" />
+                 </svg></button> 
+                 <button><svg class="social-media"   width="40px" height="40px" viewBox="-7 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"> 
+                     <path d="M14.48 11.28c0 0.48-0.4 0.84-0.84 0.84-0.48 0-0.84-0.4-0.84-0.84 0-0.48 0.4-0.84 0.84-0.84 0.44-0.040 0.84 0.36 0.84 0.84zM17.76 11.64v8.72c0 2.48-2.040 4.52-4.52 4.52h-8.72c-2.48 0-4.52-2.040-4.52-4.52v-8.72c0-2.48 2.040-4.52 4.52-4.52h8.72c2.52 0 4.52 2.040 4.52 4.52zM16.080 11.64c0-1.56-1.28-2.84-2.84-2.84h-8.72c-1.56 0-2.84 1.28-2.84 2.84v8.72c0 1.56 1.28 2.84 2.84 2.84h8.72c1.6 0 2.88-1.28 2.88-2.84l-0.040-8.72zM13.52 16c0-2.56-2.080-4.64-4.64-4.64s-4.64 2.080-4.64 4.64 2.080 4.64 4.64 4.64 4.64-2.080 4.64-4.64zM11.84 16c0 1.64-1.32 2.96-2.96 2.96s-2.96-1.32-2.96-2.96 1.32-2.96 2.96-2.96 2.96 1.32 2.96 2.96z"></path>
+                     </svg></button> 
+                 </div>
+            <p class="thin-font">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+            <div class="payment-method">
+               <button> <img src="./bg-image/apple-pay.png" alt="apple-pay" srcset=""></button>
+               <button><img src="./bg-image/visa-pay.png" alt="visa-pay.png" srcset=""></button>
+               <button><img src="./bg-image/master-pay.png" alt="master-pay.png" srcset=""></button>
+               <button> <img src="./bg-image/discover-pay.png" alt="discover-pay.png" srcset=""></button>
+               <button><img src="./bg-image/secure-pay.png" alt="secure-pay.png" srcset=""></button>
+            </div>
+    </div>
+</div>
+</footer>
+<script src="./toggling.js"></script>
+    <script src="./categrioes.js"></script>
+    <script src="./loing.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
